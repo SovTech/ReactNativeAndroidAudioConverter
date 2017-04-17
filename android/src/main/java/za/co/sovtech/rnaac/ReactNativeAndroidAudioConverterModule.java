@@ -1,4 +1,4 @@
-package za.co.sovtech.ReactNativeAndroidAudioConverter;
+package za.co.sovtech.rnaac;
 
 import android.app.Activity;
 

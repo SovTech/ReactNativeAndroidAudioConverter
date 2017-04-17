@@ -8,7 +8,7 @@ import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
 import com.facebook.soloader.SoLoader;
 
-import za.co.sovtech.react-native-audio-converter.ReactNativeAndroidAudioConverter;
+import za.co.sovtech.rnaac.ReactNativeAndroidAudioConverterPackage;  // <---- add this line
 
 import java.util.Arrays;
 import java.util.List;
@@ -25,7 +25,7 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
-          new ReactNativeAndroidAudioConverter()
+          new ReactNativeAndroidAudioConverterPackage() // <---- add this line
       );
     }
   };
