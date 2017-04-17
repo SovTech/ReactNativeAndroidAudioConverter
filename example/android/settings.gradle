@@ -1,0 +1,6 @@
+rootProject.name = 'example'
+
+include ':app',
+        ':react-native-audio-converter'
+
+project(':react-native-audio-converter').projectDir = new File(rootProject.projectDir, '../../android')
