@@ -2,7 +2,7 @@
 
 A simple AndroidAudioConverter wrapper for React Native
 
-### How to install?
+## How to install?
 
 1. `yarn add reactnativeandroidaudioconverter`
 
@@ -49,6 +49,26 @@ public class MainApplication extends ReactApplication {
 <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 ```
 
-### Dependencies
+## How to use it?
+
+#### 1. Import the package
+
+`import {AudioConverter} from 'react-native-android-audio-converter';`
+
+#### 2. Make sure AndroidAudioConverter has initialized
+
+a message will appear in the android logs
+
+#### 3. Call AudioConverter.convertAudioFile
+
+```
+AudioConverter.convertAudioFile("my_audio.flac", (successMessage) => {
+                console.log(successMessage);
+            }, (errorMessage) => {
+                console.log(errorMessage);
+            });
+```
+
+## Dependencies
 
 This package uses [AndroidAudioConverter](https://github.com/adrielcafe/AndroidAudioConverter) which in turn uses [FFmpeg-Android-Java](https://github.com/WritingMinds/ffmpeg-android-java)
