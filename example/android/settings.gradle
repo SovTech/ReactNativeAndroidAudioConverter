@@ -1,6 +1,5 @@
 rootProject.name = 'example'
+include ':react-native-android-audio-converter' // <---- add this line
+project(':react-native-android-audio-converter').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-android-audio-converter/android') // <---- add this line
 
-include ':app',
-        ':rnaac'
-
-project(':rnaac').projectDir = new File(rootProject.projectDir, '../../android') // <---- add this line
+include ':app'

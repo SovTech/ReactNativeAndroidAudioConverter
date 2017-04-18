@@ -17,15 +17,15 @@ A simple AndroidAudioConverter wrapper for React Native
 
 #### 1. android/settings.gradle
 ```
-include ':rnaac', ':app'
-project(':rnaac').projectDir = new File(rootProject.projectDir, '../../android')
+include ':react-native-android-audio-converter' // <---- add this line
+project(':react-native-android-audio-converter').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-android-audio-converter/android') // <---- add this line
 
 ```
 
 #### 2. android/app/build.gradle
 ```
 dependencies {
-    compile project(':rnaac')  // <---- add this line
+    compile project(':react-native-android-audio-converter') // <---- add this line
 }
 ```
 

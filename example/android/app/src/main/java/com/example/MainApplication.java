@@ -3,12 +3,11 @@ package com.example;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import za.co.sovtech.rnaac.ReactNativeAndroidAudioConverterPackage; // <---- add this line
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
 import com.facebook.soloader.SoLoader;
-
-import za.co.sovtech.rnaac.ReactNativeAndroidAudioConverterPackage;  // <---- add this line
 
 import java.util.Arrays;
 import java.util.List;
