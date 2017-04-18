@@ -1,6 +1,6 @@
 {
   "name": "react-native-android-audio-converter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple AndroidAudioConverter wrapper for React Native",
   "main": "index.js",
   "directories": {
