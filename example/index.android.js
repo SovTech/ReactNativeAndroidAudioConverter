@@ -12,7 +12,7 @@ import {
     View
 } from 'react-native';
 
-import {AudioConverter} from 'react-native-android-audio-converter';
+import AudioConverter from 'react-native-android-audio-converter';
 
 export default class example extends Component {
     render() {
