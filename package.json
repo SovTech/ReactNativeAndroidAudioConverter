@@ -1,0 +1,28 @@
+{
+  "name": "react-native-android-audio-converter",
+  "version": "1.0.0",
+  "description": "A simple AndroidAudioConverter wrapper for React Native",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/SovTech/ReactNativeAndroidAudioConverter.git"
+  },
+  "keywords": [
+    "react-native",
+    "audio",
+    "converter",
+    "encoder"
+  ],
+  "author": "Jonathan Irwin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SovTech/ReactNativeAndroidAudioConverter/issues"
+  },
+  "homepage": "https://github.com/SovTech/ReactNativeAndroidAudioConverter#readme"
+}
