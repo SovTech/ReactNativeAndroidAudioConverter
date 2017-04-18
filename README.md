@@ -10,8 +10,7 @@ A simple AndroidAudioConverter wrapper for React Native
 
 ## Linking AUTOMATICALLY
 
-1. `react native link`
-2.  it should be done
+#### 1. `react native link`
 
 ## Linking MANUALLY
 
@@ -28,13 +27,10 @@ project(':rnaac').projectDir = new File(rootProject.projectDir, '../../android')
 dependencies {
     compile project(':rnaac')  // <---- add this line
 }
-
 ```
 
 #### 3. android/app/src/main/java/.../MainApplication.java
-
 ```
-
 import za.co.sovtech.rnaac.ReactNativeAndroidAudioConverterPackage;  // <---- add this line
 
 public class MainApplication extends ReactApplication {
@@ -48,11 +44,9 @@ public class MainApplication extends ReactApplication {
 ```
 
 #### 4. android/app/src/main/AndroidManifest.xml
-
 ```
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 ```
 
 ### Dependencies
