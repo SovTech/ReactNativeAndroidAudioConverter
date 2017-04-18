@@ -3,4 +3,4 @@ rootProject.name = 'example'
 include ':app',
         ':rnaac'
 
-project(':rnaac').projectDir = new File(rootProject.projectDir, '../../android')
+project(':rnaac').projectDir = new File(rootProject.projectDir, '../../android') // <---- add this line
